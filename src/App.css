@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*
+{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+  font-family: playfair-display;
+}
+
+body
+{
+  background-color: whitesmoke;
+  background-image: url(whiteblack.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#navbar
+{
+  width: 100%;
+  height: 10vh;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+
+  display: flex;
+}
+
+#navbar a
+{
+  text-decoration: none;
+}
+
+#logo
+{
+  width: 60%;
+}
+
+#nav
+{
+  display: flex;
+}
+
+#nav ul
+{
+  list-style: none;
+  display: flex;
+  gap: 1 rem;
+}
+
+#nav li.active
+{
+  text-decoration: underline;
+}
+
+#nav li.hover
+{
+  background-color: #777;
+}
+
+
+#home, #repo
+{
+  padding-left: 10px;
+  margin-right: 80px;
+
+}
+
+#hero
+{
+  
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+#about
+{
+  background-color: #f5f5f5d3;
+  background-image: url(./potbgd-flip.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+  height: 100%;
+
+  padding: 80px;
+
+  font-size: 50px;
+}
+
+#contact
+{
+  font-size: 16px;
+}
+
+/*#right-pane
+{
+  background-color: rgba(255, 255, 0, 0);
+  width: 65%;
+  padding-top:20px ;
+  padding-bottom:20px ;
+  padding-right: 30px;
+
+
+} */
+
+#cards
+{
+  width: 60%;
+}
+
+#repo-card     /*,#card1, #card2, #card3*/
+{
+  background-color:whitesmoke ;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+
+  margin: 10px;
+
+  border-radius: 60px;
+  
+  display: flex;
+
+}
+
+#avatar-div
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatar
+{
+  width: 40px;
+  border-radius: 50px;
+  
+}
+
+#repo-preview
+{
+  margin-left: 30px;
+}
+
+/*
+
+#private
+{
+  background-color: rgba(228, 98, 66, 0.959)(241, 26, 26)(241, 26, 26)(241, 26, 26)(228, 22, 22);
+
+}
+
+#public
+{
+  background-color: rgba(75, 245, 59, 0.897);
+} 
+
+*/
+
+
+
+button
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  background-color: #8f6a8f;
+  border-radius: 20px;
+
+  color: white;
+  font-size: 17px;
+
+  cursor: pointer;
+
+}
+
+
+
+/*#prev
+{
+  margin-right: 6px;
+} */
+
+
+#repository
+{
+  background-color: whitesmoke;
+  margin-top: 30px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+
+  padding: 20px 50px 20px 50px;
+
+  height: 60vh;
+
+  box-shadow: #f5f5f5d3;
+  
+}
+
+#all-repository
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
