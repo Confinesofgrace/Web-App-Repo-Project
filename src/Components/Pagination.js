@@ -10,7 +10,7 @@ const Pagination = ({repoPerpage, totalRepo}) =>
     return(
         <nav id= "pagination">
             <ul>
-                <button>Back</button>
+                <button>Prev</button>
                 
                 <button>Next</button>
                 
